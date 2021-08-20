@@ -1,3 +1,3 @@
 <?php
-	$conex = mysqli_connect("localhost","electrotecnia","13Mq|UOgrc?)]vQ#","id17112216_contacto");
+	$conex = mysqli_connect("localhost","id17112216_electrotecnia","vBc3IP_XaDPXLi[1","id17112216_contacto");
 ?>
