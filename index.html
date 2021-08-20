@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electrotecnia Franca</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/jquery-main.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Header, lo primero que se ve al entrar a la página -->
+<header>
+	<div id="homeFullScreen">
+		<div class="header-text">
+			<h1>Electrotecnia Franca</h1>
+			<div class="vertical-line"></div>
+			<p>
+				INSTALACIÓN DE CÁMARAS DE SEGURIDAD
+				<br />
+				Y AUTOMATIZACIÓN DE PORTONES
+			</p>
+		</div>
+	</div>
+</header>
+
+
+<!-- Imágenes con info al lado -->
+<section class="feature">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<!-- Primer Texto -->
+				<div class="feature-box">
+					<h1>Quienes somos?</h1>
+					<p>Electrotécnia Franca es una empresa que fue creada con el fin de llevar a cabo instalaciónes de cámaras de vigilancia y la automatización de portones al público general</p>
+				</div>
+			</div>
+			<!-- Primer Imagen -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="images/1.jpg">
+			</div>
+
+			<div class="clearfix"></div>
+
+			<!-- Segunda Imagen -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="images/2.jpg">
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<!-- Segundo Texto -->
+				<div class="feature-box">
+					<h1>Precios Competentes</h1>
+					<p>Nos comprometemos a cobrar lo que realmente vale el trabajo, haciendo que el costo de nuestro servicio valga la pena por sobre cualquier otro competidor del mercado. Además realizamos presupuestos para que usted, el consumidor, pueda compararlos</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="heading">Imágenes</h1>
+			</div>
+
+			<!--Galería de imágenes-->
+
+			<div class="col-md-4 col-sm-4">
+				<img src="images/p-1.jpg">
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<img src="images/p-2.jpg">
+			</div>
+			<div class="col-md-4 col-sm-4 last-img">
+				<img src="images/p-3.jpg">
+			</div>
+
+			<div class="clearfix"></div><!-- "Salto de Línea" -->
+
+			<div class="col-md-4 col-sm-4">
+				<img src="images/p-4.jpg">
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<img src="images/p-5.jpg">
+			</div>
+			<div class="col-md-4 col-sm-4 last-img">
+				<img src="images/p-6.jpg">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="call-top-action text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>¡Contáctanos!</h1>
+				<p>Puedes contactar con nosotros através de un mensaje en las redes sociales, o con un email 
+				<br>
+				En caso de que prefieras algo más sencillo, aqui tienes para enviarnos un mensaje, procura ingresar bien tus datos</p>
+				<span>Esperamos trabajar con usted</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="col-md-6_whitetext" style="padding: 60px; background-color: #42484c;">
+	<div class="textwidget">
+		<h2 class="box">Envíanos un Mensaje</h2>						
+		<div class="bottomform">										
+			<form method="post" action="php/alta.php" id="bottomcontactform">
+				<div class="form">
+					<div class="row">
+						<span class="col-md-6">
+							<input type="text" name="name" placeholder="Nombre">
+						</span>
+						<span class="col-md-6">
+							<input type="text" name="lastname" placeholder="Apellido">
+						</span>
+						<br>
+						<br>
+						<span class="col-md-6">
+							<input type="mail" name="email" placeholder="E-mail">
+						</span>
+						<span class="col-md-6">
+							<input type="number" name="phone" placeholder="Teléfono">
+						</span>
+							
+					</div>
+					<div class="clearfix"></div>
+					<textarea name="msg" placeholder="Mensaje" id="comment"></textarea> <br>
+					<input type="submit" id="submit2" class="clearfix btn" value="Enviar" name="send">
+				</div>
+			</form>
+		</div>						
+	</div>
+</div>
+
+<br>
+<!-- Footer -->
+<footer>
+	<ul class="in-line">
+		<li><a href="https://www.facebook.com/electrotecniafranca"><span><i class="fa fa-facebook"></i></span></a></li>
+		<li><a href="https://www.instagram.com/electrotecniafranca/"><span><i class="fa fa-instagram"></i></span></a></li>
+	</ul>
+</footer>
+
+</body>
+</html>
